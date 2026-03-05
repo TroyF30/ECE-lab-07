@@ -11,11 +11,11 @@ In this lab you've learned the basics of number theory as it relates to subtract
 |Question 2|Your answers to the question|25%|
 |Question 3|Your answers to the question|25%|
 
-## Names Peter Krahn, Troy Fowers
+## Names: Peter Krahn, Troy Fowers
 
 ## Summary
 
-We learned how to create a half subtracter, one's complement and two's complement in vivado. We realized that for the one's complement we needed to include another wire to represent the carry / borrow value to make the bits invert. This is because in one's complement we need to invert all of the bits to represent 
+We learned how to create a half subtracter, one's complement and two's complement in vivado. We realized that for the one's complement we needed to include another wire to represent the carry / borrow value to make the bits invert. This is because in one's complement we need to invert all of the bits at the end of the addition, and finally include the carry bit at the end. For the two's complement, since we weren't adding two 4 bit digits and instead are making the entire 8 bit string the complement. This made it pretty easy to implement the full adder from the previous lab, as the result from the inverted bit it used in the full adder for the following bit. 
 
 ## Lab Questions
 
