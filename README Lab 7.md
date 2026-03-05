@@ -15,7 +15,7 @@ In this lab you've learned the basics of number theory as it relates to subtract
 
 ## Summary
 
-
+We learned how to create a half subtracter, one's complement and two's complement in vivado. We realized that for the one's complement we needed to include another wire to represent the carry / borrow value to make the bits invert. This is because in one's complement we need to invert all of the bits to represent 
 
 ## Lab Questions
 
